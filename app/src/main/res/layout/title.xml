@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/title"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拍照"
+        android:id="@+id/title_photo"
+        android:layout_margin="5dip"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="0dip"
+        android:text="报修系统"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/title_text"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置"
+        android:id="@+id/title_set"
+        android:layout_gravity="center"
+        android:layout_margin="5dip"
+        />
+
+</LinearLayout>
